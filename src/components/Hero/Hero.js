@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import React from "react";
 import Typewriter from "typewriter-effect";
 import { Zoom } from "react-slideshow-image";
@@ -21,7 +22,11 @@ const zoomOutProperties = {
 const Hero = () => {
   return (
     <>
-      <section className="Hero mt-12 md:mt-16 text-gray-700 body-font">
+      <section
+        className={`${
+          screen.width < 800 ? "Hero-small" : "Hero"
+        } mt-12 md:mt-16 text-gray-700 body-font }`}
+      >
         <div className="container mx-auto  flex px-5 py-12 md:py-24 md:flex-row flex-col items-center">
           <div className="mt-6 md:mt-0 lg:flex-grow md:w-3/5 lg:w-2/5 xl:w-1/3 lg:pl-0 xl:pl-16 lg:pr-2 md:pr-0 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
             <h1 className="title-font text-4xl lg:text-5xl mb-2 font-medium text-white  ">
