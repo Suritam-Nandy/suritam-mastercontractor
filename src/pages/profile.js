@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { render } from "react-dom";
-import { VscSearch, VscLocation } from "react-icons/vsc";
+import { VscLocation } from "react-icons/vsc";
 import ProjectsSection from "./Profile/ProjectsSection";
 import ServiceSection from "./Profile/ServiceSection";
 import About from "./Profile/About";
