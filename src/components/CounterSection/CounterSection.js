@@ -39,16 +39,10 @@ const CounterSection = () => {
         <div className="md:max-w-screen-lg  mx-auto">
           <div className="flex justify-center my-10">
             <div className=" mt-6 flex flex-row justify-between mx-3">
-              <button
-                // onClick={() => setActiveSearchPlaceholder("RequestQuotes")}
-                className="inline-flex  text-gray-900 bg-yl border-0 py-1 px-2 md:px-4 focus:outline-none hover:bg-yellow-600 rounded md:text-lg"
-              >
+              <button className="inline-flex  text-gray-900 bg-yl border-0 py-1 px-2 md:px-4 focus:outline-none hover:bg-yellow-600 rounded md:text-lg">
                 Request Quotes
               </button>
-              <button
-                // onClick={() => setActiveSearchPlaceholder("BrowseContractors")}
-                className="ml-4 inline-flex text-gray-900 bg-yl border-0 py-1 px-2 md:px-4 focus:outline-none hover:bg-yellow-600 rounded md:text-lg"
-              >
+              <button className="ml-4 inline-flex text-gray-900 bg-yl border-0 py-1 px-2 md:px-4 focus:outline-none hover:bg-yellow-600 rounded md:text-lg">
                 Browse Contractors
               </button>
             </div>
