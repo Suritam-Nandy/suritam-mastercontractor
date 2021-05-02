@@ -63,14 +63,14 @@ const signin = () => {
                     By signing up, you agree to the
                     <a
                       className="no-underline border-b border-grey-900 text-grey-900 mx-0.5"
-                      href="#"
+                      href="/signin"
                     >
                       Terms of Service
                     </a>{" "}
                     and
                     <a
                       className="no-underline border-b border-grey-900 text-grey-900 mx-0.5"
-                      href="#"
+                      href="/signin"
                     >
                       Privacy Policy.
                     </a>

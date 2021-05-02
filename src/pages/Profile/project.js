@@ -1,7 +1,6 @@
 import React from "react";
 import HeroContractors from "../../components/Hero/HeroContractors";
-import { Link } from "react-router-dom";
-import { VscSearch, VscLocation } from "react-icons/vsc";
+import { VscLocation } from "react-icons/vsc";
 
 import SwiperCore, {
   Navigation,
@@ -10,12 +9,6 @@ import SwiperCore, {
   A11y,
   Autoplay,
 } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
-// import "swiper/swiper.scss";
-// import "swiper/components/navigation/navigation.scss";
-// import "swiper/components/pagination/pagination.scss";
-// import "swiper/components/scrollbar/scrollbar.scss";
 
 const PROJECTS = [
   {
@@ -40,6 +33,7 @@ const AllContractorSlider = () => {
           <img
             className="w-full border-black border"
             src="https://images.unsplash.com/photo-1544457070-4cd773b4d71e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=543&q=80"
+            alt="img"
           />
         </div>
       </div>

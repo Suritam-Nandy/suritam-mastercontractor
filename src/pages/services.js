@@ -137,13 +137,13 @@ const PaginationComponet = () => {
       <div className="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
         <div className="flex-1 flex justify-center sm:hidden">
           <a
-            href="#"
+            href="/services"
             className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:text-gray-500"
           >
             Previous
           </a>
           <a
-            href="#"
+            href="/services"
             className="ml-4 relative inline-flex items-center px-6 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:text-gray-500"
           >
             Next
@@ -163,26 +163,26 @@ const PaginationComponet = () => {
               aria-label="Pagination"
             >
               <a
-                href="#"
+                href="/services"
                 className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
               >
                 <span className="sr-only">Previous</span>
                 <AiOutlineLeft className="h-5 w-5" aria-hidden="true" />
               </a>
               <a
-                href="#"
+                href="/services"
                 className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
               >
                 1
               </a>
               <a
-                href="#"
+                href="/services"
                 className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
               >
                 2
               </a>
               <a
-                href="#"
+                href="/services"
                 className="hidden md:inline-flex relative items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
               >
                 3
@@ -191,25 +191,25 @@ const PaginationComponet = () => {
                 ...
               </span>
               <a
-                href="#"
+                href="/services"
                 className="hidden md:inline-flex relative items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
               >
                 8
               </a>
               <a
-                href="#"
+                href="/services"
                 className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
               >
                 9
               </a>
               <a
-                href="#"
+                href="/services"
                 className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
               >
                 10
               </a>
               <a
-                href="#"
+                href="/services"
                 className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
               >
                 <span className="sr-only">Next</span>
