@@ -6,26 +6,6 @@ import About from "./Profile/About";
 
 import Review from "./Profile/Review";
 
-const SearchBar = ({ placeholder }) => {
-  return (
-    <div>
-      <div
-        className=" h-auto overflow-hidden flex items-center justify-center"
-        style={{ background: "transparent" }}
-      >
-        <div className="relative md:mr-2 mr-1 my-2">
-          <input
-            type="search"
-            className="w-72 xl:w-96 focus:outline-none bg-purple-white shadow rounded border-0 px-3 py-2"
-            placeholder={placeholder}
-          />
-          <div className="absolute pin-r pin-t mt-3 mr-4 text-purple-lighter"></div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
 const HeroProfile = (props) => {
   return (
     <>
@@ -34,7 +14,10 @@ const HeroProfile = (props) => {
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 mx-auto">
             <div className="col-span-1 lg:col-span-1 mx-10 block justify-center py-6 md:justify-start ">
               <div className="flex justify-center items-center md:py-2 px-1">
-                <img src="https://images.unsplash.com/photo-1611486212557-88be5ff6f941?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fGludGVyaW9yJTIwY29uc3RydWN0aW9uJTIwd29ya3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></img>
+                <img
+                  src="https://images.unsplash.com/photo-1611486212557-88be5ff6f941?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fGludGVyaW9yJTIwY29uc3RydWN0aW9uJTIwd29ya3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  alt="img"
+                ></img>
               </div>
             </div>
 

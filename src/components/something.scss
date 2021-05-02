@@ -1,0 +1,135 @@
+.databox {
+  width: 80%;
+  background: white;
+  margin: auto;
+  box-shadow: 0px 0px 10px black;
+  margin-top: -30px;
+  z-index: 4;
+  padding: 20px;
+}
+
+.datainnerbox {
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  border-right: 1px solid black;
+  font-size: 1.3em;
+  color: #ffc107;
+}
+
+.datahead {
+  font-weight: 700;
+}
+
+.aboutwrapper {
+  padding-top: 200px;
+}
+
+.aboutbox {
+  width: 40vw;
+  background: #ffc107;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  margin: auto 20vw;
+  position: relative;
+  padding: 50px;
+  padding-right: 75px;
+  color: white;
+}
+
+.abouthead {
+  color: white;
+}
+
+.abouthead,
+.servecat {
+  font-weight: 700;
+}
+
+.aboutimg {
+  background: url("/assets/Images/ba2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 30vw;
+  position: absolute;
+  right: -25vw;
+  bottom: 0;
+  z-index: -1;
+}
+
+.testname {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+@media (max-width: 1050px) {
+  .aboutbox {
+    width: 50vw;
+    margin: auto 5vw;
+  }
+  .aboutimg {
+    width: 40vw;
+    height: 550px;
+    right: -35vw;
+  }
+}
+@media (max-width: 840px) {
+}
+@media (max-width: 720px) {
+  .aboutbox {
+    width: 50vw;
+    margin: auto 2vw;
+  }
+  .aboutimg {
+    width: 48vw;
+    height: 550px;
+    right: -43vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutbox {
+    width: 70vw;
+    margin: auto 2.4vw;
+  }
+  .aboutimg {
+    width: 60vw;
+    height: 400px;
+    bottom: -150px;
+    right: -25vw;
+  }
+  .aboutwrapper {
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .datainnerbox {
+    height: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    border-right: none;
+    font-size: 1.1em;
+  }
+}
+:root {
+  --swiper-theme-color: #ffc107;
+}
+.floatWhatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
